@@ -1,0 +1,196 @@
+body {
+    background: #F6F6F6;
+}
+.article .address {
+    height: 68px;
+    border-bottom: 1px solid #E9E9E9;
+    background: #FFF;
+}
+.article .address .location {
+    width: 50px;
+    float: left;
+    height: 100%;
+}
+.article .address .location:before {
+    position: absolute;
+    background: url("../../images/xiashiyouqing/location.png") no-repeat;
+    background-size:contain;
+    width: 18px;
+    height: 27px;
+    margin-left: 18px;
+    margin-top: 20px;
+    content: '';
+}
+.article .address .detail {
+    float: left;
+    height: 52px;
+    margin-top: 10px;
+    max-width: 300px;
+    color: #130F12;
+}
+.article .address .detail .addr {
+    font-size: 12px;
+    height: 16px;
+    margin-top: 6px;
+    max-width: 220px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.article .address .detail .mobile {
+    margin-left: 20px;
+    text-align: right;
+}
+.article .address .forward {
+    float: right;
+    width: 10px;
+    height: 16px;
+    margin-top: 26px;
+    margin-right: 14px;
+}
+.article .address .forward:before {
+    position: absolute;
+    background: url("../../images/xiashiyouqing/forward.png") no-repeat;
+    background-size:contain;
+    width: 10px;
+    height: 16px;
+    content: '';
+}
+.article .info {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+}
+.article .count {
+    padding-left: 20px;
+    height: 96px;
+    border-bottom: 1px solid #EAEAEB;
+    border-top: 1px solid #EAEAEB;
+    background: #FFF;
+    color: #030000;
+}
+.article .count .detail {
+    height: 48px;
+}
+.article .count .detail .name {
+    line-height: 48px;
+}
+.article .count .detail a {
+    float: right;
+    line-height: 48px;
+    color: #000;
+    margin-right: 20px;
+}
+.article .count .detail a label,
+.article .count .detail a span {
+    float: left;
+    margin-left: 2px;
+}
+.article .count .total {
+    box-sizing: border-box;
+    padding-right: 20px;
+    height: 48px;
+    line-height: 48px;
+    border-top: 1px solid #D8D8D8;
+    color: #000;
+    text-align: right;
+}
+.article .pay {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 32px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    background: #1A1A1A;
+    border-radius: 3px;
+}
+.article .back {
+    display: block;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    background: rgba(0,0,0,0.42);
+}
+.mask .pay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 296px;
+    height: 132px;
+    margin-left: -148px;
+    margin-top: -66px;
+    background: #FFF;
+    border-radius: 3px;
+}
+.mask .pay .title {
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+    font-size: 20px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.mask .pay .title i {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/exit.png") no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+    right: 16px;
+    margin-top: 15px;
+}
+.mask .pay .channel {
+    height: 90px;
+    margin-left: 16px;
+}
+.mask .pay .channel li {
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #000;
+    height: 45px;
+    line-height: 45px;
+}
+.mask .pay .channel li span {
+    display: inline-block;
+    margin-left: 30px;
+}
+.mask .pay .channel li:before {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-top: 14px;
+    content: '';
+}
+.mask .pay .channel li.alipay:before {
+    background: url("../../images/jieyuanjiachi/alipay.png") no-repeat;
+    background-size: contain;
+}
+.mask .pay .channel li.wechat:before {
+    background: url("../../images/jieyuanjiachi/wechat.png") no-repeat;
+    background-size: contain;
+}
+.mask .pay .channel li.alipay {
+    border-bottom: 1px solid #D8D8D8;
+}

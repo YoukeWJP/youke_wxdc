@@ -1,0 +1,9 @@
+## 结缘加持
+* [结缘加持](./jieyuanjiachi.html)
+* [结缘详情](./wodegongde.html)
+* [确认地址](./querendizhi.html)
+* [提交成功](./wanchengjieyuan.html)
+* [详情](./xiangqing.html)
+* [选择地址](./xuanzedizhi.html)
+* [选择数量](./xiangqing.html)
+* [选择支付方式](./querendizhi.html)

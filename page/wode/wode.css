@@ -1,0 +1,76 @@
+body {
+    background: #F6F6F6;
+}
+.header {
+    position: relative;
+}
+.header .bg-top {
+    display: block;
+    width: 100%;
+}
+.header .user {
+    width: 69px;
+    position: absolute;
+    margin-left: -34.5px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+.header .user .img {
+    display: block;
+    height: 69px;
+    width: 69px;
+    border-radius: 35px;
+    margin-top: -60px;
+}
+.header .user span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #E1DEDD;
+    margin: 10px 0 0 0;
+    line-height: 20px;
+}
+.header .user .name {
+    display: -webkit-box!important;
+    max-height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.article {
+    margin-top: 9px;
+}
+.article p {
+    height: 54px;
+    line-height: 54px;
+    background: #FFF;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #EBEBEA;
+    border-bottom: 1px solid #EBEBEA;
+}
+.article p.gongde {
+    margin-top: 10px;
+    border-bottom: none;
+}
+.article p label {
+    color: #09080A;
+    float: left;
+}
+.article p span {
+    color: #918E8E;
+    float: right;
+    margin-right: 30px;
+}
+.article p i {
+    position: absolute;
+    background: url("../../images/xiashiyouqing/forward.png") no-repeat;
+    background-size: contain;
+    width: 6px;
+    height: 10px;
+    margin-top: 22px;
+    right: 15px;
+}

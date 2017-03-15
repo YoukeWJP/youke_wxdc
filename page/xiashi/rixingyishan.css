@@ -1,0 +1,74 @@
+body {
+    background: #F6F4F3;
+    box-sizing: border-box;
+    padding-top: 32px;
+}
+.money {
+    display: block;
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 55px;
+    line-height: 55px;
+    color: #090809;
+    background: #FFF;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+}
+.money label {
+    float: left;
+    width: 60px;
+    text-align: center;
+}
+.money input {
+    float: left;
+    width: calc(100% - 92px);
+    text-align: right;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.money span {
+    float: right;
+    width: 32px;
+}
+.total {
+    height: 40px;
+    margin-top: 42px;
+    text-align: center;
+    color: #090809;
+    position: relative;
+}
+.total label {
+    position: absolute;
+    width: 24px;
+    margin-top: 4px;
+    margin-left: -64px;
+    font-size: 20px;
+}
+.total span {
+    position: absolute;
+    margin-left: -40px;
+    font-size: 42px;
+    font-weight: bold;
+    left: 50%;
+    vertical-align: bottom;
+}
+.save {
+    display: block;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background: #090809;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
