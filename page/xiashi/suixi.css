@@ -1,0 +1,52 @@
+.header .img-top {
+    display: block;
+    width: 100%;
+}
+.header .txt {
+    color: #010101;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 15px;
+}
+.header .btn {
+    display: block;
+    margin: 10px 45px 15px 45px;
+    color: #FFF;
+    background: #010101;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 26px;
+}
+.article .line {
+    height: 10px;
+    background: #F6F6F6;
+}
+.article .title {
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+}
+.article .title label {
+    display: inline-block;
+    width: 9px;
+    height: 4px;
+    background: #000;
+    vertical-align: middle;
+}
+.article .content {
+    margin: 10px 25px 15px 25px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+.article .img {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.article .img img {
+    width: 100%;
+    display: block;
+}

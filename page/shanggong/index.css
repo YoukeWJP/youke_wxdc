@@ -1,0 +1,166 @@
+.article {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 54px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    overflow-y: auto;
+}
+.article .newest {
+    height: 256px;
+}
+.article .newest .title {
+    height: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.article .newest .title h3 span{
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    line-height: 36px;
+}
+.article .newest .title h3 label {
+    display: inline-block;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 12px;
+}
+.article .newest .title h3 {
+    display: inline-block;
+    color: #8F8F8F;
+    font-size: 12px;
+    font-weight: normal;
+}
+.article .newest .title a {
+    height: 36px;
+    position: relative;
+}
+.article .newest .title a .current {
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    bottom: 1px;
+    right: 12px;
+}
+.article .newest .title a .slash {
+    font-size: 12px;
+    color: #8F8F8F;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+}
+.article .newest .title a .total {
+    font-size: 12px;
+    color: #8F8F8F;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+.article .newest .nav-detail {
+    width: 100%;
+    height: 210px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding: 0 12px 0 20px;
+}
+.article .newest .nav-detail li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.article .newest .nav-detail .img {
+    width: 280px;
+    max-height: 180px;
+    display: block;
+}
+.article .newest .nav-detail li label {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+.article .newest .nav-detail li span {
+    clear: both;
+    font-size: 12px;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 4px;
+    color: #8F8F8F;
+}
+.article .everymonth {
+    height: 180px;
+}
+.article .everymonth .title {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #C6C6C6;
+    padding-top: 14px;
+    height: 30px;
+    font-size: 18px;
+}
+.article .everymonth .title span {
+    display: inline-block;
+}
+.article .everymonth .title label {
+    display: inline-block;
+    font-size: 12px;
+    color: #8F8F8F;
+    margin-left: 12px;
+}
+.article .everymonth .list-detail {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.article .everymonth .list-detail li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.article .everymonth .list-detail .img {
+    width: 160px;
+    height: 94px;
+    display: block;
+}
+.article .everymonth .list-detail li span {
+    font-size: 14px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.article .long {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #C6C6C6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.article .long .title {
+    text-align: center;
+    font-size: 18px;
+    color: #8F8F8F;
+}
+.article .long ul {
+    overflow: auto;
+}
+.article .long .item {
+    width: 33.33%;
+    float: left;
+    margin-top: 16px;
+}
+.article .long .item .img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

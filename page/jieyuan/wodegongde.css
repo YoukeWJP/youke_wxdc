@@ -1,0 +1,38 @@
+.img {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.img img {
+    width: 100%;
+    display: block;
+}
+.title {
+    margin-left: 20px;
+    color: #030000;
+    font-size: 18px;
+    font-weight: normal;
+    height: 24px;
+    line-height: 24px;
+}
+.detail {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.detail .item {
+    height: 25px;
+    line-height: 25px;
+}
+.detail .item label {
+    float: left;
+    width: 40%;
+}
+.detail .item span {
+    color: #8F8F8F;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}

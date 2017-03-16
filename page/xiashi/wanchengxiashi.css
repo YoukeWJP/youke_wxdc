@@ -1,0 +1,103 @@
+.header img {
+    width: 100%;
+    display: block;
+}
+.article .status {
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article .status .success {
+    text-align: center;
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    color: #131013;
+}
+.article .status .success:before {
+    position: absolute;
+    background: url(../../images/xiashiyouqing/success.png) no-repeat;
+    background-size: contain;
+    width: 14px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: -20px;
+    content: '';
+}
+.article .status .info {
+    text-align: center;
+    font-size: 15px;
+    height: 24px;
+    line-height: 24px;
+    color: #8F8F8F;
+}
+.article .money {
+    height: 44px;
+    line-height: 44px;
+    box-sizing: border-box;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+    color: #8F8F8F;
+    position: relative;
+    font-size: 15px;
+}
+.article .money label,
+.article .money span {
+    float: left;
+}
+.article .money .view {
+    float: right;
+    margin-right: 34px;
+}
+.article .money i {
+    position: absolute;
+    background: url("../../images/xiashiyouqing/forward.png") no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 16px;
+    right: 4px;
+    margin-top: 14px;
+}
+.article .time {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 14px;
+    margin-right: 14px;
+    clear: both;
+    font-size: 15px;
+}
+.article .time label {
+    float: left;
+    width: 90px;
+    color: #000;
+}
+.article .time span {
+    float: left;
+    color: #8F8F8F;
+}
+.article .detail {
+    display: block;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: 15px;
+    color: #000;
+}
+.article .detail label {
+    float: left;
+    width: 90px;
+}
+.article .detail .items {
+    overflow: hidden;
+    color: #8F8F8F;
+}
+.article .detail .items span {
+    display: block;
+    color: #8F8F8F;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 26px;
+}

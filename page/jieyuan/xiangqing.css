@@ -1,0 +1,196 @@
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 50px;
+    overflow-y: auto;
+}
+.main .img-top {
+    display: block;
+    width: 100%;
+}
+.main .detail {
+    height: 112px;
+    background: #FFF;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-left: 18px;
+}
+.main .detail .title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.main .detail .price {
+    height: 24px;
+}
+.main .detail .price span {
+    font-size: 14px;
+}
+.main .detail .price label {
+    font-weight: bold;
+}
+.main .detail .price .large {
+    font-size: 20px;
+}
+.main .line {
+    height: 10px;
+    background: #F6F6F6;
+}
+.main .content {
+    box-sizing: border-box;
+    padding: 20px 22px;
+    color: #8F8F8F;
+    line-height: 22px;
+    font-size: 14px;
+}
+.main .img {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.main .img img {
+    width: 100%;
+    display: block;
+}
+.add {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    z-index: 9;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+    background: rgba(0,0,0,0.42);
+}
+.mask .add-num {
+    position: absolute;
+    width: 296px;
+    height: 184px;
+    left: 50%;
+    top: 50%;
+    margin-left: -148px;
+    margin-top: -92px;
+    background: #FFF;
+    border-radius: 3px;
+}
+.mask .add-num .title {
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+    font-size: 22px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.mask .add-num .title i {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/exit.png") no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+    right: 16px;
+    margin-top: 16px;
+}
+.mask .add-num .commodity {
+    display: block;
+    color: #000;
+    height: 56px;
+    margin-left: 20px;
+}
+.mask .add-num .commodity .name {
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+}
+.mask .add-num .commodity .desc {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #8F8F8F;
+}
+.mask .add-num .btn-next {
+    display: block;
+    width: 92px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 32px;
+    color: #FFF;
+    background: #000;
+    font-size: 15px;
+}
+.mask .add-num .detail {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #000;
+    font-size: 15px;
+}
+.mask .add-num .detail .money {
+    float: left;
+}
+.mask .add-num .detail .num {
+    float: right;
+    margin-right: 18px;
+}
+.mask .add-num .detail .num span {
+    display: inline-block;
+}
+.mask .add-num .detail .num i {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+}
+.mask .add-num .detail .num .minus:before {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/rectangle.png") no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    margin-top: 4px;
+    content: '';
+}
+.mask .add-num .detail .num .minus:after {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/minus.png") no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 5px;
+    margin-top: 14px;
+    margin-left: 5px;
+    content: '';
+}
+.mask .add-num .detail .num .plus:before {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/rectangle.png") no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    margin-top: 4px;
+    content: '';
+}
+.mask .add-num .detail .num .plus:after {
+    position: absolute;
+    background: url("../../images/jieyuanjiachi/plus.png") no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 11px;
+    margin-top: 9px;
+    margin-left: 5px;
+    content: '';
+}

@@ -1,0 +1,91 @@
+.header .img-top {
+    display: block;
+    width: 100%;
+}
+.header .nav {
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #D8D8D8;
+    position: relative;
+}
+.header .nav li {
+    float: left;
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.header .nav li.active:after {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #333238;
+    width: 50px;
+    height: 3px;
+    bottom: 3px;
+    content: '';
+}
+.header .nav-detail {
+    padding: 12px 5px 0 25px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    height: 130px;
+}
+.header .nav-detail li {
+    display: inline-block;
+    width: 100px;
+    margin-right: 4px;
+}
+.header .nav-detail .img {
+    display: block;
+    width: 100%;
+    line-height: 74px;
+}
+.header .nav-detail li label,
+.header .nav-detail li span {
+    font-size: 14px;
+    float: left;
+}
+.article {
+    clear: both;
+}
+.article .line {
+    height: 10px;
+    background: #F6F6F6;
+}
+.article .title {
+    margin-top: 16px;
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+}
+.article .title:before,
+.article .title:after {
+    display: inline-block;
+    width: 9px;
+    height: 4px;
+    background: #000;
+    vertical-align: middle;
+    content: '';
+}
+.article .content {
+    margin: 10px 25px 15px 25px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+.article .img {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.article .img img {
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,149 @@
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 54px;
+    overflow-y: auto;
+}
+.header {
+    overflow: auto;
+}
+.header .img-top {
+    display: block;
+    width: 100%;
+}
+.header .title {
+    margin-left: 22px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #010101;
+}
+.header .items {
+    box-sizing: border-box;
+    padding-left: 22px;
+    width: 100%;
+}
+.header .list-detail {
+    height: 109px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    padding-left: 22px;
+}
+.header .list-detail li {
+    width: 138px;
+    display: inline-block;
+}
+.header .list-detail .img {
+    width: 131px;
+    height: 75px;
+    display: block;
+    margin-top: 4px;
+}
+.header .list-detail li span {
+    font-size: 14px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.article .line {
+    height: 10px;
+    background: #F6F6F6;
+}
+.article .explain {
+    height: 78px;
+}
+.article .explain i {
+    float: left;
+    margin-left: 22px;
+    background: url("../../images/xiashiyouqing/rixingyishan.png") no-repeat;
+    background-size: contain;
+    width: 58px;
+    height: 58px;
+    margin-top: 10px;
+}
+.article .explain p {
+    box-sizing: border-box;
+    padding-left: 20px;
+    height: 48px;
+    line-height: 48px;
+    float: left;
+    border-left: 1px solid #CECDCD;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #8F8F8F;
+}
+.article .explain:after {
+    position: absolute;
+    background: url("../../images/xiashiyouqing/forward.png") no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 16px;
+    right: 15px;
+    margin-top: 34px;
+    content: '';
+}
+.article .section {
+    box-sizing: border-box;
+    padding-left: 22px;
+}
+.article .section .title {
+    height: 32px;
+    font-weight: normal;
+}
+.article .section .title .large {
+    float: left;
+    font-size: 24px;
+}
+.article .section .title .small {
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 15px;
+    color: #8F8F8F;
+}
+.article .section .item-list {
+    overflow: auto;
+    clear: both;
+}
+.article .section .item-list li {
+    height: 70px;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #C6C6C6;
+}
+.article .section .item-list li:last-child {
+    border-bottom: none;
+}
+.article .section .item-list li .img {
+    float: left;
+    width: 58px;
+    height: 44px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.article .section .item-list li .img img {
+    width: 100%;
+}
+.article .section .item-list li .detail {
+    position: absolute;
+    left: 70px;
+    top: 13px;
+    right: 20px;
+}
+.article .section .item-list li .detail .span {
+    font-size: 14px;
+    float: left;
+}
+.article .section .item-list li .detail .p {
+    clear: both;
+    font-size: 12px;
+    color: #8F8F8F;
+    float: left;
+}
