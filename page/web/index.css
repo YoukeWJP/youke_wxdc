@@ -163,6 +163,35 @@ i {
     margin-left: auto;
     margin-right: auto;
 }
+.cases .content .years {
+    height: 840px;
+}
+.cases .content .years .year {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.cases .content .years .desc {
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: #FFF;
+    box-sizing: border-box;
+    padding-top: 320px;
+}
+.cases .content .years .desc .title {
+    line-height: 50px;
+    font-size: 36px;
+}
+.cases .content .years .desc .detail {
+    margin-top: 24px;
+    line-height: 32px;
+    font-size: 18px;
+}
+.cases .content .clients {
+    height: 603px;
+    background: #FAFAFA;
+}
 .footer {
     height: 400px;
     background: #2B2B2B;
