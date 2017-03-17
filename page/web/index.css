@@ -1,0 +1,253 @@
+/*common --- BEGIN*/
+html,body {
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    width: 100%;
+    height: 100%;
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+canvas {
+    vertical-align: bottom;
+}
+* {
+    padding:0;
+    margin:0;
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+}
+.dn {
+    display: none;
+}
+.db {
+    display: block;
+}
+.dib {
+    display: inline-block;
+}
+.cb {
+    clear: both;
+}
+input {
+    box-shadow: none;
+    border-style: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+i {
+    cursor: pointer;
+}
+/*common --- END*/
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #2C3E50;
+}
+.header .content {
+    width: 1200px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.header .content:before {
+    position: absolute;
+    left: 2px;
+    top: 42px;
+    background: url("../../images/web/logo.png") no-repeat;
+    width: 95px;
+    height: 93px;
+    content: '';
+}
+.header .content:after {
+    background: url("../../images/web/mission.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 450px;
+    height: 300px;
+    margin-left: -225px;
+    margin-top: -150px;
+    content: '';
+}
+.header .content i {
+    background: url("../../images/web/continue.png") no-repeat;
+    position: absolute;
+    width: 152px;
+    height: 63px;
+    left: 50%;
+    bottom: 60px;
+    margin-left: -76px;
+    cursor: pointer;
+}
+@media (max-height: 740px){
+    .header .content i {
+        display:none;
+    }
+}
+.advantage {
+    height: 600px;
+    background: #FAFAFA;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+.advantage .content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantage .content .title {
+    background: url("../../images/web/advantage.png") no-repeat;
+    width: 332px;
+    height: 51px;
+}
+.advantage .content .line {
+    width: 72px;
+    height: 6px;
+    margin-top: 26px;
+    background: #2C3E50;
+}
+.advantage .content .feature {
+    margin-top: 50px;
+    color: #000;
+}
+.advantage .content .feature:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.advantage .content .feature li {
+    float: left;
+    width: 25%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+}
+.advantage .content .feature-detail {
+    margin-top: 32px;
+    color: #000;
+}
+.advantage .content .feature-detail:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.advantage .content .feature-detail li {
+    float: left;
+    color: #5C5C5C;
+    width: 25%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+}
+.cases {
+    height: 1443px;
+    background: #000;
+}
+.cases .content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    height: 400px;
+    background: #2B2B2B;
+}
+.footer .content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .content .contact {
+    height: 296px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.footer .content .contact .logo {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.footer .content .contact .logo:before {
+    position: absolute;
+    background: url("../../images/web/logo.png") no-repeat;
+    width: 95px;
+    height: 93px;
+    content: '';
+}
+.footer .content .contact .qrcode {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.footer .content .contact .qrcode .title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #D2D2D0;
+}
+.footer .content .contact .qrcode .img {
+    width: 129px;
+    height: 129px;
+    display: block;
+}
+.footer .content .contact .address {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-right: 100px;
+    float: left;
+    font-size: 18px;
+    color: #D2D2D0;
+    line-height: 30px;
+}
+.footer .content .contact .phone-email {
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+}
+.footer .content .contact .phone-email a {
+    display: block;
+    font-size: 18px;
+    color: #D2D2D0;
+    height: 30px;
+    line-height: 30px;
+}
+.footer .content .copyright {
+    box-sizing: border-box;
+    height: 104px;
+    line-height: 104px;
+    color: #D2D2D0;
+    font-size: 18px;
+    position: relative;
+    border-top: 1px solid #D2D2D0;
+}
+.footer .content .copyright .policy:after {
+    position: relative;
+    display: inline-block;
+    background: url(../../images/web/anquanlianmeng.png) no-repeat;
+    width: 75px;
+    height: 30px;
+    top: 8px;
+    margin-left: 20px;
+    content: '';
+}
