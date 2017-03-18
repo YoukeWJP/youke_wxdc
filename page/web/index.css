@@ -78,10 +78,10 @@ i {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 450px;
-    height: 300px;
-    margin-left: -225px;
-    margin-top: -150px;
+    width: 442px;
+    height: 315px;
+    margin-left: -221px;
+    margin-top: -157px;
     content: '';
 }
 .header .content i {
@@ -170,6 +170,33 @@ i {
     width: 50%;
     height: 100%;
     float: left;
+}
+.cases .content .years .year .circleWrap {
+    width: 400px;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.cases .content .years .year .circleWrap .text {
+    position: absolute;
+    top: calc(50% - 100px);
+    width: 100%;
+    color: #FFF;
+}
+.cases .content .years .year .circleWrap .text .big {
+    font-size: 150px;
+    line-height: 1em;
+    margin-top: 10px;
+    text-align: center;
+}
+.cases .content .years .year .circleWrap .text .small {
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-size: 24px;
+    text-align: center;
 }
 .cases .content .years .desc {
     float: left;
@@ -423,3 +450,39 @@ i {
     margin-left: 20px;
     content: '';
 }
+/*keyframes --- BEGIN*/
+@-webkit-keyframes fadeInUpSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 25%, 0);
+        transform: translate3d(0, 25%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUpSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 25%, 0);
+        transform: translate3d(0, 25%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeInUpSmall {
+    -webkit-animation-name: fadeInUpSmall;
+    animation-name: fadeInUpSmall;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*keyframes --- END*/

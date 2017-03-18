@@ -15,7 +15,7 @@
                 "type": "circle",
                 "stroke": {
                     "width": 0,
-                    "color": "#000000"
+                    "color": "#000"
                 },
                 "polygon": {
                     "nb_sides": 10
@@ -112,6 +112,25 @@
     _setCanvasContainer();
     $(window).on('resize', function() {
         _setCanvasContainer();
+    });
+    $(document).on('click', '#btn-continue', function() {
+        var height = _getXY().height;
+        window.scrollTo(0, height);
+    }).on('click', '.clients .client>li', function() {
+        var $this = $(this);
+        var index = $this.attr('data-index');
+        $this.closest('.items').children('[data-index="' + index + '"]').show().siblings('li').hide();
+    }).on('click', '.clients .items .selector .left', function() {
+        var $this = $(this),
+            $selector = $('.clients .items');
+        var index = $this.closest('.items>li').index();
+        $selector.children('li').eq(index - 1).show().siblings('li').hide();
+    }).on('click', '.clients .items .selector .right', function() {
+        var $this = $(this),
+            $selector = $('.clients .items'),
+            len = $selector.children('li').length;
+        var index = $this.closest('.items>li').index();
+        $selector.children('li').eq(index + 1 >= len ? index + 1 - len : index + 1).show().siblings('li').hide();
     });
 
     function _getXY() {
