@@ -132,6 +132,15 @@
         var index = $this.closest('.items>li').index();
         $selector.children('li').eq(index + 1 >= len ? index + 1 - len : index + 1).show().siblings('li').hide();
     });
+    _setSVGLoading();
+    (new TimelineMax()).from('.circleWrap .text .big', 2, {
+        autoAlpha: 0,
+        y: 30
+    }, 0).from('.circleWrap .text .small', 2, {
+        autoAlpha: 0,
+        y: -30
+    }, 0);
+
 
     function _getXY() {
         var height = 'innerHeight' in window ? window.innerHeight : document.documentElement.clientHeight;
@@ -148,4 +157,22 @@
             height: '100%'
         }).attr(_getXY());
     }
-})();
+
+    function _setSVGLoading() {
+        var circle = $('.circle'),
+            rangeValue = 0,
+            cc;
+
+        function setCircle() {
+            circle.attr('stroke-dashoffset', (255 - rangeValue) + '%');
+            rangeValue += 5;
+            if (rangeValue >= 240) {
+                window.clearInterval(cc);
+            }
+        }
+
+        cc = window.setInterval(function() {
+            setCircle();
+        }, 1);
+    }
+}());

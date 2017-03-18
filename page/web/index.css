@@ -486,3 +486,17 @@ i {
     animation-fill-mode: both;
 }
 /*keyframes --- END*/
+#layer_svg {
+    stroke-dasharray: 255%;
+    stroke-dashoffset: 255%;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-width: 4;
+    stroke: #FFF;
+    fill: none;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
