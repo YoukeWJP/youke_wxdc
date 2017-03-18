@@ -237,6 +237,7 @@ i {
     float: left;
     width: 33.33%;
     height: 36px;
+    cursor: pointer;
 }
 .cases .content .clients .items .desc .client .ecnu-logo:before {
     display: block;
