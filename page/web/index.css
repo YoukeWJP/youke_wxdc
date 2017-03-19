@@ -377,10 +377,10 @@ i {
     padding-top: 50px;
 }
 .footer .content .contact .logo {
-    width: 25%;
+    width: 22%;
     height: 100%;
     float: left;
-    padding-top: 20px;
+    padding-top: 10px;
     box-sizing: border-box;
 }
 .footer .content .contact .logo:before {
@@ -390,46 +390,106 @@ i {
     height: 93px;
     content: '';
 }
-.footer .content .contact .qrcode {
-    width: 25%;
+.footer .content .contact .address {
+    width: 28%;
     height: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 70px;
     float: left;
+}
+.footer .content .contact .address .title {
+    color: #FFF;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+.footer .content .contact .address .middle {
+    font-size: 14px;
+    color: #D2D2D0;
+    line-height: 22px;
+    margin-top: 24px;
+}
+.footer .content .contact .address a {
+    display: block;
+    font-size: 14px;
+    color: #D2D2D0;
+    line-height: 22px;
+}
+.footer .content .contact .address .email {
+    margin-top: 24px;
+}
+.footer .content .contact .partner {
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    float: left;
+}
+.footer .content .contact .partner .title {
+    font-size: 18px;
+    color: #FFF;
+    height: 30px;
+    line-height: 30px;
+}
+.footer .content .contact .partner .details {
+    margin-top: 16px;
+}
+.footer .content .contact .partner .details li {
+    float: left;
+    height: 36px;
+    margin-right: 20px;
+}
+.footer .content .contact .partner .details .ecnu-logo-trans {
+    background: url("../../images/web/ecnu-logo-trans.png") no-repeat;
+    width: 162px;
+    height: 36px;
+}
+.footer .content .contact .partner .details .xzb-logo {
+    background: url("../../images/web/xzb-logo.png") no-repeat;
+    width: 70px;
+    height: 29px;
+    position: relative;
+    margin-top: 3px;
+}
+.footer .content .contact .partner .details .ykxz-logo {
+    background: url("../../images/web/ykxz-logo.png") no-repeat;
+    width: 75px;
+    height: 18px;
+    position: relative;
+    margin-top: 9px;
+}
+.footer .content .contact .qrcode {
+    width: 15%;
+    height: 100%;
+    float: right;
 }
 .footer .content .contact .qrcode .title {
     height: 40px;
+    width: 129px;
+    text-align: center;
+    float: right;
     line-height: 40px;
     font-size: 18px;
-    color: #D2D2D0;
+    color: #FFF;
 }
 .footer .content .contact .qrcode .img {
     width: 129px;
     height: 129px;
-    display: block;
+    float: right;
+    cursor: pointer;
+    clear: both;
 }
-.footer .content .contact .address {
-    width: 30%;
-    height: 100%;
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-right: 100px;
-    float: left;
-    font-size: 18px;
+.footer .content .contact .qrcode .desc {
+    height: 40px;
+    width: 129px;
+    margin-top: 8px;
+    text-align: center;
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
     color: #D2D2D0;
-    line-height: 30px;
-}
-.footer .content .contact .phone-email {
-    width: 20%;
-    height: 100%;
-    box-sizing: border-box;
-    padding-top: 20px;
-    float: left;
-}
-.footer .content .contact .phone-email a {
-    display: block;
-    font-size: 18px;
-    color: #D2D2D0;
-    height: 30px;
-    line-height: 30px;
+    clear: both;
 }
 .footer .content .copyright {
     box-sizing: border-box;
@@ -439,6 +499,15 @@ i {
     font-size: 18px;
     position: relative;
     border-top: 1px solid #D2D2D0;
+}
+.footer .content .copyright .service {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #FFF;
+}
+.footer .content .copyright .policy {
+    font-size: 16px;
+    color: #FFF;
 }
 .footer .content .copyright .policy:after {
     position: relative;
