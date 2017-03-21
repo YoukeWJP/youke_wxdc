@@ -113,10 +113,7 @@
     $(window).on('resize', function() {
         _setCanvasContainer();
     });
-    $(document).on('click', '#btn-continue', function() {
-        var height = _getXY().height;
-        window.scrollTo(0, height);
-    }).on('click', '.clients .client>li', function() {
+    $(document).on('click', '.clients .client>li', function() {
         var $this = $(this);
         var index = $this.attr('data-index');
         $this.closest('.items').children('[data-index="' + index + '"]').show().siblings('li').hide();
@@ -140,7 +137,6 @@
         autoAlpha: 0,
         y: -30
     }, 0);
-
 
     function _getXY() {
         var height = 'innerHeight' in window ? window.innerHeight : document.documentElement.clientHeight;
@@ -170,7 +166,6 @@
                 window.clearInterval(cc);
             }
         }
-
         cc = window.setInterval(function() {
             setCircle();
         }, 1);
