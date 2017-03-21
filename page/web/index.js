@@ -165,7 +165,7 @@
 
         function setCircle() {
             circle.attr('stroke-dashoffset', (255 - rangeValue) + '%');
-            rangeValue += 2;
+            rangeValue += 2.5;
             if (rangeValue >= 240) {
                 window.clearInterval(cc);
             }
