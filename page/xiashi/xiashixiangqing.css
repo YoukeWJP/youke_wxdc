@@ -29,27 +29,25 @@
     bottom: 3px;
     content: '';
 }
-.header .nav-detail {
+.header .swiper-container {
     padding: 12px 5px 0 25px;
     width: 100%;
     white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
     box-sizing: border-box;
     height: 130px;
 }
-.header .nav-detail li {
+.header .swiper-container .swiper-slide {
     display: inline-block;
     width: 100px;
     margin-right: 4px;
 }
-.header .nav-detail .img {
+.header .swiper-container .img {
     display: block;
     width: 100%;
     line-height: 74px;
 }
-.header .nav-detail li label,
-.header .nav-detail li span {
+.header .swiper-container .swiper-slide label,
+.header .swiper-container .swiper-slide span {
     font-size: 14px;
     float: left;
 }

@@ -28,26 +28,24 @@
     bottom: 3px;
     content: '';
 }
-.header .nav-detail {
+.header .swiper-container {
     padding: 12px 25px;
     width: 100%;
     white-space: nowrap;
-    overflow-x: scroll;
-    overflow-y: hidden;
     box-sizing: border-box;
     height: 130px;
 }
-.header .nav-detail li {
+.header .swiper-container .swiper-slide {
     display: inline-block;
     height: 130px;
     width: 100px;
 }
-.header .nav-detail .img {
+.header .swiper-container .img {
     width: 96px;
     line-height: 74px;
 }
-.header .nav-detail li label,
-.header .nav-detail li span {
+.header .swiper-container .swiper-slide label,
+.header .swiper-container .swiper-slide span {
     font-size: 14px;
     float: left;
     color: #010101;

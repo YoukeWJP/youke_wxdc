@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/comm.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <script src="../../js/third-party/swiper.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                     <span class="total">7</span>
                 </a>
             </div>
-            <ul class="nav-detail">
+            <!--      <ul class="nav-detail">
                 <li>
                     <img class="img" src="../../images/shanggong/hepingta.png" />
                     <label>世界和平塔开光法会</label>
@@ -61,14 +63,49 @@
                     <label>世界和平塔开光法会</label>
                     <span>2017.04.15-2017.05.20</span>
                 </li>
-            </ul>
+            </ul> -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/hepingta.png" />
+                        <label>世界和平塔开光法会</label>
+                        <span>2017.04.15-2017.05.20</span>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
         </section>
         <section class="everymonth">
             <div class="title">
                 <span>每月福田</span>
                 <label>每月福田说明</label>
             </div>
-            <ul class="list-detail">
+           <!--  <ul class="list-detail">
                 <li>
                     <img class="img" src="../../images/shanggong/shushengri.png" />
                     <span>殊胜日</span>
@@ -89,7 +126,33 @@
                     <img class="img" src="../../images/shanggong/gongyangxinzhou.png" />
                     <span>供养心咒</span>
                 </li>
-            </ul>
+            </ul> -->
+             <div class="swiper-container-month">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/shushengri.png" />
+                    <span>殊胜日</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/gongyangxinzhou.png" />
+                    <span>供养心咒</span>
+                </li>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/shushengri.png" />
+                    <span>殊胜日</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/gongyangxinzhou.png" />
+                    <span>供养心咒</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/shanggong/gongyangxinzhou.png" />
+                    <span>供养心咒</span>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
         </section>
         <section class="long">
             <div class="title">长期福田</div>
@@ -130,6 +193,22 @@
             </li>
         </ul>
     </footer>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1.1,
+            paginationClickable: true,
+            spaceBetween: 35,
+            freeMode: true
+        });
+                var swiper_month = new Swiper('.swiper-container-month', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1.8,
+            paginationClickable: true,
+            spaceBetween: 35,
+            freeMode: true
+        });
+    </script>
 </body>
 
 </html>

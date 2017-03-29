@@ -60,31 +60,29 @@
     bottom: 4px;
     right: 0;
 }
-.article .newest .nav-detail {
+.article .newest .swiper-container {
     width: 100%;
     height: 210px;
     white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
     box-sizing: border-box;
     padding: 0 12px 0 20px;
 }
-.article .newest .nav-detail li {
+.article .newest .swiper-container .swiper-slide {
     display: inline-block;
     margin-right: 8px;
 }
-.article .newest .nav-detail .img {
+.article .newest .swiper-container .img {
     width: 280px;
     max-height: 180px;
     display: block;
 }
-.article .newest .nav-detail li label {
+.article .newest .swiper-container .swiper-slide label {
     display: block;
     height: 20px;
     line-height: 20px;
     margin-top: 12px;
 }
-.article .newest .nav-detail li span {
+.article .newest .swiper-container .swiper-slide span {
     clear: both;
     font-size: 12px;
     display: block;
@@ -113,24 +111,22 @@
     color: #8F8F8F;
     margin-left: 12px;
 }
-.article .everymonth .list-detail {
+.article .everymonth .swiper-container-month {
     width: 100%;
     white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
     box-sizing: border-box;
     padding: 0 20px;
 }
-.article .everymonth .list-detail li {
+.article .everymonth .swiper-container-month .swiper-slide {
     display: inline-block;
     margin-right: 8px;
 }
-.article .everymonth .list-detail .img {
+.article .everymonth .swiper-container-month .img {
     width: 160px;
     height: 94px;
     display: block;
 }
-.article .everymonth .list-detail li span {
+.article .everymonth .swiper-container-month .swiper-slide span {
     font-size: 14px;
     display: inline-block;
     height: 20px;

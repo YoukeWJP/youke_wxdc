@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/comm.css">
+    <link rel="stylesheet" href="../../css/swiper.min.css">
     <link rel="stylesheet" href="./xiashiyouqing.css">
+    <script src="../../js/third-party/swiper.min.js"></script>
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <div class="header">
             <img class="img-top" src="../../images/xiashiyouqing/heshang-text.png" />
             <p class="title">下施喜乐园</p>
-            <ul class="list-detail">
+            <!-- <ul class="list-detail">
                 <li>
                     <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
                     <span>为孩子们筹集牙刷</span>
@@ -37,7 +39,36 @@
                     <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
                     <span>喜乐园生活费</span>
                 </li>
-            </ul>
+            </ul> -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>为孩子们筹集牙刷</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>喜乐园生活费</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>喜乐园生活费</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>喜乐园生活费</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>喜乐园生活费</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img" src="../../images/xiashiyouqing/shenghuofei-long.png" />
+                        <span>喜乐园生活费</span>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
         </div>
         <div class="article">
             <p class="line"></p>
@@ -101,6 +132,15 @@
             </li>
         </ul>
     </footer>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 2.5,
+            paginationClickable: true,
+            spaceBetween: 35,
+            freeMode: true
+        });
+    </script>
 </body>
 
 </html>

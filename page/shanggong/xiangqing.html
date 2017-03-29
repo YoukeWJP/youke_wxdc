@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/comm.css">
+    <link rel="stylesheet" href="../../css/swiper.min.css">
     <link rel="stylesheet" href="./xiangqing.css">
+    <script src="../../js/third-party/swiper.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
             <li>供香</li>
             <li>供斋</li>
         </ul>
-        <ul class="nav-detail">
+        <!--         <ul class="nav-detail">
             <li>
                 <img class="img" src="../../images/shanggong/dengta.png" />
                 <label>供品</label>
@@ -42,7 +44,42 @@
                 <label>供品</label>
                 <span class="cb">50元</span>
             </li>
-        </ul>
+        </ul> -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+                <div class="swiper-slide">
+                    <img class="img" src="../../images/shanggong/dengta.png" />
+                    <label>供品</label>
+                    <span class="cb">50元</span>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
     </header>
     <article class="article">
         <p class="line"></p>
@@ -58,7 +95,7 @@
     </article>
     <!--简介 --- BEGIN -->
     <!--class增加dn，隐藏mask-->
-    <div class="mask">
+    <div class="mask dn">
         <div class="desc">
             <h3 class="title">
                 福田介绍
@@ -67,7 +104,7 @@
             <div class="content">
                 <h3>供品</h3>
                 <p>
-                世界和平塔的四面墙壁上，塑着佛祖释迦摩尼四个阶段的雕像，雕像场景分别反映了佛祖在尼泊尔蓝毗尼的无忧树下诞生、佛祖在菩提伽耶的菩提树下觉悟成佛、释迦牟尼佛在鹿野苑初转法轮、释迦牟尼佛在拘尸那伽城入灭。
+                    世界和平塔的四面墙壁上，塑着佛祖释迦摩尼四个阶段的雕像，雕像场景分别反映了佛祖在尼泊尔蓝毗尼的无忧树下诞生、佛祖在菩提伽耶的菩提树下觉悟成佛、释迦牟尼佛在鹿野苑初转法轮、释迦牟尼佛在拘尸那伽城入灭。
                 </p>
             </div>
             <a href="javascript:void(0);" class="btn">
@@ -76,6 +113,15 @@
         </div>
     </div>
     <!--简介 --- END -->
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 3.3,
+            paginationClickable: true,
+            spaceBetween: 30,
+            freeMode: true
+        });
+    </script>
 </body>
 
 </html>
