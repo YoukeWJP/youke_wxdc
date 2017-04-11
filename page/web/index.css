@@ -101,7 +101,7 @@ i {
     }
 }
 .advantage {
-    height: 600px;
+    height: 792px;
     background: #FAFAFA;
     box-sizing: border-box;
     padding-top: 70px;
@@ -154,6 +154,37 @@ i {
     height: 42px;
     line-height: 42px;
     font-size: 20px;
+}
+.advantage .content .link {
+    margin-top: 140px;
+}
+.advantage .content .link img {
+    width: 294px;
+    height: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantage .content .link a {
+    display: block;
+    font-size: 18px;
+    color: #0070C9;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    height: 30px;
+    line-height: 30px;
+    font-family: '黑体';
+}
+.advantage .content .link a:after {
+    position: absolute;
+    background: url("../../images/web/right-angle.png") no-repeat;
+    width: 19px;
+    height: 29px;
+    margin-top: 2px;
+    content: '';
 }
 .cases {
     height: 840px;
@@ -432,31 +463,91 @@ i {
     line-height: 30px;
 }
 .footer .content .contact .partner .details {
-    margin-top: 16px;
+    margin-top: 26px;
 }
 .footer .content .contact .partner .details li {
     float: left;
+    width: 120px;
     height: 36px;
     margin-right: 20px;
+    margin-bottom: 12px;
 }
-.footer .content .contact .partner .details .ecnu-logo-trans {
-    background: url("../../images/web/ecnu-logo-trans.png") no-repeat;
-    width: 162px;
-    height: 36px;
-}
-.footer .content .contact .partner .details .xzb-logo {
+.footer .content .contact .partner .details .xzb-logo:before {
     background: url("../../images/web/xzb-logo.png") no-repeat;
-    width: 70px;
-    height: 29px;
+    width: 47px;
+    height: 17px;
     position: relative;
-    margin-top: 3px;
+    display: inline-block;
+    margin-top: 15px;
+    content: '';
 }
-.footer .content .contact .partner .details .ykxz-logo {
+.footer .content .contact .partner .details .ykxz-logo:before {
     background: url("../../images/web/ykxz-logo.png") no-repeat;
-    width: 75px;
-    height: 18px;
+    width: 79px;
+    height: 22px;
     position: relative;
+    display: inline-block;
     margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .ecnu-logo-trans:before {
+    background: url("../../images/web/ecnu-logo-trans.png") no-repeat;
+    width: 99px;
+    height: 22px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .gmlxs-logo:before {
+    background: url("../../images/web/guangmingliuxueshe.png") no-repeat;
+    width: 71px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .mgss-logo:before {
+    background: url("../../images/web/meiguosishu.png") no-repeat;
+    width: 73px;
+    height: 21px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .glgl-logo:before {
+    background: url("../../images/web/gulugulu.png") no-repeat;
+    width: 78px;
+    height: 22px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .yjtqd-logo:before {
+    background: url("../../images/web/yingjian.png") no-repeat;
+    width: 87px;
+    height: 24px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details .mdmf-logo:before {
+    background: url("../../images/web/maidemofang.png") no-repeat;
+    width: 47px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+    content: '';
+}
+.footer .content .contact .partner .details:after {
+    display: block;
+    clear: both;
+    content: '';
 }
 .footer .content .contact .qrcode {
     width: 15%;
@@ -493,29 +584,40 @@ i {
 .footer .content .copyright {
     box-sizing: border-box;
     height: 103px;
-    line-height: 103px;
     color: #D2D2D0;
     font-size: 18px;
     position: relative;
     border-top: 1px solid #D2D2D0;
 }
-.footer .content .copyright .service {
+.footer .content .copyright .title {
+    margin-top: 40px;
+}
+.footer .content .copyright .desc {
+    float: left;
+    margin-top: 40px;
+    line-height: 24px;
     margin-left: 30px;
+}
+.footer .content .copyright .service {
     font-size: 16px;
     color: #FFF;
 }
 .footer .content .copyright .policy {
     font-size: 16px;
-    color: #FFF;
+    color: #D2D2D0;
+    clear: both;
 }
-.footer .content .copyright .policy:after {
+.footer .content .copyright .policy a {
+    color: #D2D2D0;
+}
+.footer .content .copyright .desc:after {
     position: relative;
     display: inline-block;
     background: url(../../images/web/anquanlianmeng.png) no-repeat;
     width: 75px;
     height: 30px;
     top: 8px;
-    margin-left: 20px;
+    margin-left: 80px;
     content: '';
 }
 /*keyframes --- BEGIN*/
