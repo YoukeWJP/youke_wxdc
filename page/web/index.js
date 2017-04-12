@@ -113,21 +113,30 @@
     $(window).on('resize', function() {
         _setCanvasContainer();
     });
-    $(document).on('click', '.clients .client>li', function() {
+    $(document)
+    .on('click', '.clients .client>li', function() {
         var $this = $(this);
         var index = $this.attr('data-index');
         $this.closest('.items').children('[data-index="' + index + '"]').show().siblings('li').hide();
-    }).on('click', '.clients .items .selector .left', function() {
+    })
+    .on('click', '.clients .items .selector .left', function() {
         var $this = $(this),
             $selector = $('.clients .items');
         var index = $this.closest('.items>li').index();
         $selector.children('li').eq(index - 1).show().siblings('li').hide();
-    }).on('click', '.clients .items .selector .right', function() {
+    })
+    .on('click', '.clients .items .selector .right', function() {
         var $this = $(this),
             $selector = $('.clients .items'),
             len = $selector.children('li').length;
         var index = $this.closest('.items>li').index();
         $selector.children('li').eq(index + 1 >= len ? index + 1 - len : index + 1).show().siblings('li').hide();
+    })
+    .on('click', '.contact-unexpand', function() {
+        $('.contact-expand').show();
+    })
+    .on('click', '.contact-expand .title i', function() {
+        $('.contact-expand').hide();
     });
     _setSVGLoading();
     (new TimelineMax()).from('.circleWrap .text .big', 2, {

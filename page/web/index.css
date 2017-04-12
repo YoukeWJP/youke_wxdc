@@ -687,4 +687,75 @@ i {
     text-align: center;
     z-index: 1;
 }
+.contact-expand {
+    position: fixed;
+    width: 416px;
+    height: 192px;
+    right: 0;
+    top: 50%;
+    margin-top: -96px;
+    font-size: 18px;
+    color: #000;
+    background: #FFF;
+    z-index: 2;
+}
+.contact-expand .title {
+    box-sizing: border-box;
+    padding-left: 24px;
+    height: 60px;
+    line-height: 64px;
+}
+.contact-expand .title i {
+    position: absolute;
+    right: 0;
+    background: url("../../images/web/close.png") no-repeat;
+    width: 29px;
+    height: 28px;
+    margin-top: 16px;
+    margin-right: 32px;
+    content: '';
+}
+.contact-expand .email {
+    display: block;
+    box-sizing: border-box;
+    color: #000;
+    padding-left: 20px;
+    height: 54px;
+    line-height: 54px;
+    border-top: 1px solid #EDF2FA;
+    border-bottom: 1px solid #EDF2FA;
+}
+.contact-expand .email:before {
+    position: absolute;
+    background: url("../../images/web/email.png") no-repeat;
+    width: 28px;
+    height: 30px;
+    margin-top: 12px;
+    content: '';
+}
+.contact-expand .email span {
+    display: inline-block;
+    margin-left: 36px;
+    line-height: 54px;
+}
+.contact-expand .tel {
+    display: block;
+    color: #000;
+    padding-left: 20px;
+    height: 54px;
+    line-height: 54px;
+}
+.contact-expand .tel:before {
+    position: absolute;
+    background: url("../../images/web/tel.png") no-repeat;
+    width: 29px;
+    height: 31px;
+    margin-top: 12px;
+    content: '';
+}
+.contact-expand .tel span {
+    display: inline-block;
+    margin-left: 36px;
+    line-height: 54px;
+}
 /*contact  --- END*/
