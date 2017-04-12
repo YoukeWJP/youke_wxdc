@@ -669,3 +669,22 @@ i {
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+/*contact  --- BEGIN*/
+.contact-unexpand {
+    cursor: pointer;
+    position: fixed;
+    width: 52px;
+    height: 136px;
+    line-height: 52px;
+    right: 0;
+    top: 50%;
+    margin-top: -68px;
+    background: #EDF2FA;
+    color: #161717;
+    font-size: 18px;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    text-align: center;
+    z-index: 1;
+}
+/*contact  --- END*/
