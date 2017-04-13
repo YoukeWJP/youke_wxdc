@@ -133,10 +133,10 @@
         $selector.children('li').eq(index + 1 >= len ? index + 1 - len : index + 1).show().siblings('li').hide();
     })
     .on('click', '.contact-unexpand', function() {
-        $('.contact-expand').show();
+        $('.contact-expand').addClass('active');
     })
     .on('click', '.contact-expand .title i', function() {
-        $('.contact-expand').hide();
+        $('.contact-expand').removeClass('active');
     });
     _setSVGLoading();
     (new TimelineMax()).from('.circleWrap .text .big', 2, {

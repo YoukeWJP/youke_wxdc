@@ -673,31 +673,44 @@ i {
 .contact-unexpand {
     cursor: pointer;
     position: fixed;
-    width: 52px;
-    height: 136px;
+    height: 52px;
+    width: 136px;
     line-height: 52px;
     right: 0;
     top: 50%;
-    margin-top: -68px;
+    margin-top: -136px;
     background: #EDF2FA;
     color: #161717;
     font-size: 18px;
-    -webkit-writing-mode: vertical-lr;
-    writing-mode: vertical-lr;
     text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
     z-index: 1;
 }
 .contact-expand {
     position: fixed;
     width: 416px;
     height: 192px;
-    right: 0;
+    right: -416px;
     top: 50%;
     margin-top: -96px;
     font-size: 18px;
     color: #000;
     background: #FFF;
     z-index: 2;
+    transition: right .5s ease;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.contact-expand.active {
+    right: 0;
+    transition: right .5s ease;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 .contact-expand .title {
     box-sizing: border-box;
